@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         window = UIWindow()
-        window?.rootViewController = GameViewController()
+        window?.rootViewController = MainLevelViewController()
         window?.makeKeyAndVisible()
         
         return true
